@@ -188,6 +188,7 @@ body {
     #main-title {
         width: 100%;
         display: flex;
+        flex: auto;
     
     }
         #main-description {
@@ -198,5 +199,6 @@ body {
     #main-title-todo {
         width: 100%;
         display: flex;
+        flex: auto;
     }
 }
