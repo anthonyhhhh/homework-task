@@ -132,7 +132,7 @@ body {
 
 #main-link:hover {
     color: #a3a3a3;
-    background-color: rgba( 18, 28, 64, 1);
+    background-color: rgba( 18, 28, 64, 0.5);
 }
 
 @media (min-width: 768px) {
