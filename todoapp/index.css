@@ -15,6 +15,7 @@ body {
     font-family: 'Lato', sans-serif;
 
 }
+
 #navbar {
     background-color: #1e293b;
     width: 100%;
@@ -163,7 +164,7 @@ body {
 
 
 
-@media (min-width: 400px) {
+@media (min-width: 600px) {
 
 .main-title {
     width: 100%;
