@@ -155,9 +155,10 @@ body {
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 500px) {
     .main {
-        flex-direction: auto;
+        display: flex;
+        flex-direction: row;
         width: 50%;
     }
    
