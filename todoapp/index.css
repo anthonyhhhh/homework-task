@@ -132,7 +132,7 @@ body {
 
 #main-link:hover {
     color: #a3a3a3;
-    background-color: rgba( 102, 227, 232, 0.5);
+    background-color: rgba( 18, 28, 64, 0.5);
 }
 
 @media (min-width: 768px) {
@@ -163,9 +163,10 @@ body {
 
 
 
-@media (min-width: 397px) {
+@media (min-height: 397px) {
 
 .main-title {
+    width: auto;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -178,6 +179,7 @@ body {
 
 }
 .main-title-todo {
+    width: auto;
     display: flex;
     flex-direction: column;
     margin: 0;
