@@ -156,10 +156,6 @@ body {
 
 
 @media (min-width: 300px) {
-    .main {
-        display: flex;
-        width: 100%;
-    }
    
     #main-title {
         width: 100%;
