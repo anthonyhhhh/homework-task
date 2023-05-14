@@ -154,7 +154,7 @@ body {
 }
 
 
-@media (min-width: 720px) {
+@media (min-width: 1280px) {
     .main {
         flex-direction: row;
         width: 50%;
