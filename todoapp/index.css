@@ -182,6 +182,7 @@ body {
     .main {
         width: 50%;
         display: flex;
+        flex-direction: row;
     }
    
     #main-title {
