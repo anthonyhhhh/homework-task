@@ -170,11 +170,11 @@ body {
     flex-direction: column;
     margin: 0;
     font-size: 3rem;
-    width: 40%;
 
 }
     #main-description {
     display: flex;
+
 
 }
 #main-title-todo {
@@ -182,7 +182,6 @@ body {
     flex-direction: column;
     margin: 0;
     font-size: 3rem;
-    width: 40%;
 
 }
 }
