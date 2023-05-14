@@ -180,25 +180,15 @@ body {
 
 @media (min-width: 768px) {
     .main {
-        display: flex;
         width: 50%;
     }
    
     #main-title {
-        display: flex;
         width: 50%;
-        flex-direction: row;
-
-    
-    }
-        #main-description {
-        display: flex;
     
     
     }
     #main-title-todo {
-        display: flex;
         width: 50%;
-        flex-direction: row;
     }
 }
