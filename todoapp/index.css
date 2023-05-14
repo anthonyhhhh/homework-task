@@ -154,10 +154,31 @@ body {
 }
 
 
-@media (min-width: 1024px) {
+@media (min-width: 720px) {
     .main {
         flex-direction: row;
-        width: 50%s;
+        width: 50%;
     }
 }
 
+
+
+@media (min-width: 768px) {
+    .bars-icon {
+        display: none;
+    }
+    #links-container {
+    display: flex;
+}
+
+#main {
+    margin: auto;
+    font-size: 3rem;
+    width: 50%;
+    margin: 0 auto;
+
+}
+    #main-link {
+    display: flex;
+}
+}
