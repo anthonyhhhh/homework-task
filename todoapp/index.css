@@ -157,14 +157,19 @@ body {
 
 @media (min-width: 300px) {
    .main-title {
-        flex: none;
+        display: flex;
+        flex-direction: row-reverse;
         height: 3rem;
         justify-content: center;
         margin: 1.5;
     
     }
         #main-description {
-        flex: none;
+        display: flex;
+        flex-direction: row-reverse;
+        height: 3rem;
+        justify-content: center;
+        margin: 1.5;
     
     
     }
@@ -185,7 +190,6 @@ body {
    
     #main-title {
         width: 100%;
-        flex-direction: row;
     }
     #main-title-todo {
         width: 100%;
