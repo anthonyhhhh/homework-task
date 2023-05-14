@@ -157,10 +157,12 @@ body {
 
 @media (min-width: 300px) {
    .main-title {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        margin: 0;
+        width: %50;
+        flex: none;
+        margin: 1.5;
+        align-items: center;
+        justify-content: center;
+
     
     }
         #main-description {
@@ -173,7 +175,7 @@ body {
         width: 100%;
         display: flex;
         flex-direction: column;
-        margin: 0;
+        margin: 0.5;
     
     }
 }
@@ -186,20 +188,17 @@ body {
     }
    
     #main-title {
-        width: 100%;
+        width: 50%;
         display: flex;
         flex-direction: row;
     
     }
         #main-description {
         display: flex;
-        flex-direction: row;
     
     
     }
     #main-title-todo {
-        width: 100%;
+        width: 50%;
         display: flex;
-        flex-direction: row;
-    }
 }
