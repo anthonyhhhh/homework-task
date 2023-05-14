@@ -166,7 +166,7 @@ body {
 
 @media (min-width: 768px) {
 
-.main-title {
+#main-title {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -179,7 +179,7 @@ body {
 
 
 }
-.main-title-todo {
+#main-title-todo {
     width: 100%;
     display: flex;
     flex-direction: column;
