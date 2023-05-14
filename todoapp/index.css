@@ -154,7 +154,7 @@ body {
 }
 
 
-@media (min-width: 1280px) {
+@media (min-width: 768px) {
     .main {
         flex-direction: row;
         width: 50%;
@@ -163,7 +163,7 @@ body {
 
 
 
-@media (min-width: 768px) {
+@media (min-width: 1080px) {
 
 #main-title {
     display: flex;
@@ -178,9 +178,10 @@ body {
 }
 #main-title-todo {
     display: flex;
-    margin: auto;
+    flex-direction: column;
+    margin: 0;
     font-size: 3rem;
-    width: 20%;
+    width: 50%;
 
 }
 }
