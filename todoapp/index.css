@@ -163,13 +163,14 @@ body {
 
 
 
-@media (min-width: 1080px) {
+@media (max-width: 1080px) {
 
 #main-title {
     display: flex;
-    margin: auto;
+    flex-direction: column;
+    margin: 0;
     font-size: 3rem;
-    width: 20%;
+    width: 40%;
 
 }
     #main-description {
@@ -181,7 +182,7 @@ body {
     flex-direction: column;
     margin: 0;
     font-size: 3rem;
-    width: 50%;
+    width: 40%;
 
 }
 }
