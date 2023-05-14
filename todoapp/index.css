@@ -156,41 +156,46 @@ body {
 
 
 @media (min-width: 300px) {
-   .main-title {
+    #main-title {
+        width: 50%;
         display: flex;
-        flex-direction: row-reverse;
-        height: 3rem;
-        justify-content: center;
-        margin: 1.5;
+        flex-direction: column;
+        margin: 0;
     
     }
         #main-description {
         display: flex;
-        flex-direction: row-reverse;
-        height: 3rem;
-        justify-content: center;
-        margin: 1.5;
     
     
     }
     #main-title-todo {
-        flex: none;
-        height: 3rem;
-        justify-content: center;
-        margin: 0.5;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
     
     }
 }
 
 @media (min-width: 768px) {
     .main {
+        display: flex;
         flex-direction: row;
-        width: 100%;
+        width: 50%;
     }
    
     #main-title {
         width: 100%;
+        display: flex;
+    
+    }
+        #main-description {
+        display: flex;
+    
+    
     }
     #main-title-todo {
         width: 100%;
+        display: flex;
+    }
 }
