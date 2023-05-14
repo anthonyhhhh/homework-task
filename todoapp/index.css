@@ -186,7 +186,7 @@ body {
     }
    
     #main-title {
-        width: 100%;
+        width: 50%;
         display: flex;
     
     }
@@ -196,7 +196,7 @@ body {
     
     }
     #main-title-todo {
-        width: 100%;
+        width: 50%;
         display: flex;
     }
 }
