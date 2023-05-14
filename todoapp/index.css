@@ -165,13 +165,22 @@ body {
 
 @media (min-width: 768px) {
 
-#main {
+#main-title {
+    display: flex;
     margin: auto;
     font-size: 3rem;
     width: 20%;
 
 }
-    #main-link {
+    #main-description {
     display: flex;
+
+}
+#main-title-todo {
+    display: flex;
+    margin: auto;
+    font-size: 3rem;
+    width: 20%;
+
 }
 }
