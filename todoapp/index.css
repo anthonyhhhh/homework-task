@@ -183,7 +183,7 @@ body {
 @media (min-width: 768px) {
     .main {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         width: 50%;
     }
    
