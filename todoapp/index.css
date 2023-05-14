@@ -155,7 +155,7 @@ body {
 }
 
 
-@media (min-width: 500px) {
+@media (min-width: 400px) {
     .main {
         display: flex;
         flex-direction: row;
@@ -180,5 +180,28 @@ body {
         flex-direction: column;
         margin: 0;
     
+    }
+}
+
+@media (min-width: 768px) {
+    .main {
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+    }
+   
+    #main-title {
+        width: 100%;
+        display: flex;
+    
+    }
+        #main-description {
+        display: flex;
+    
+    
+    }
+    #main-title-todo {
+        width: 100%;
+        display: flex;
     }
 }
