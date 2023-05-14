@@ -186,12 +186,10 @@ body {
    
     #main-title {
         width: 50%;
-        display: flex;
-    
+
     
     }
     #main-title-todo {
-        display: flex;
         width: 50%;
     }
 }
