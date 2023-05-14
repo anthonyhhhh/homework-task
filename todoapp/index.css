@@ -165,19 +165,19 @@ body {
 
 @media (min-width: 397px) {
 
-#main-title {
+.main-title {
     display: flex;
     flex-direction: column;
     margin: 0;
     font-size: 3rem;
 
 }
-    #main-description {
+    .main-description {
     display: flex;
 
 
 }
-#main-title-todo {
+.main-title-todo {
     display: flex;
     flex-direction: column;
     margin: 0;
